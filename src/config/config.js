@@ -1,9 +1,6 @@
 const db = {
-  // host: "us-cdbr-east-06.cleardb.net",
-  // user: "b8e6577e968fd0",
-  // password: '12595785',
-  // database: "heroku_eaf6a68c2f4162b"
   connectionLimit: 100,
+  // host: 'staging-myhomecrowd-com.clksafefzfha.ap-southeast-1.rds.amazonaws.com',
   host:'develop-myhomecrowd-com.clksafefzfha.ap-southeast-1.rds.amazonaws.com',
   user:'adminroot',
   password:'nopassword',

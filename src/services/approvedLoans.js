@@ -14,7 +14,7 @@ loanRouter.get("/", (req, res) => {
         
         console.log("Using Database");
         //Change loan_status if needed
-        let getApprovedLoans = "SELECT * FROM loans where loan_status=2";
+        let getApprovedLoans = "SELECT * FROM loans where loan_status=1";
         database.query(getApprovedLoans, (error,results) => {
             if (error) 
                 throw error;
