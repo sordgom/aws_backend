@@ -23,4 +23,4 @@ app.listen(PORT, () => {
   console.log(` Server is up and running on ${PORT} ...`);
 });
 
-app.use('/loan',require('./services/approvedLoans'));
+app.use('/service',require('./services/router'));
